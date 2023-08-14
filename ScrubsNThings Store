@@ -1,0 +1,23 @@
+--Create a store database
+
+CREATE TABLE ScrubsNThings (id INTEGER PRIMARY KEY, item TEXT, color TEXT, price INTEGER, quantity INTEGER, size INTEGER);
+
+INSERT INTO scrubsnthings VALUES (1, "scrub_top", "tye_dye", 16, 28, "s, m, l");
+INSERT INTO scrubsnthings VALUES (2, "scrub_bottoms", "black", 12, 24, "s, m, l");
+INSERT INTO scrubsnthings VALUES (3, "scrub_jacket", "blue", 14, 40, "s, m, l");
+INSERT INTO scrubsnthings VALUES (4, "socks", "tye_dye", 6, 20, "s, m, l");
+INSERT INTO scrubsnthings VALUES (5, "socks", "black_white", 6, 20, "s, m, l");
+INSERT INTO scrubsnthings VALUES (6, "scrub_bottoms", "blue", 12, 28, "s, m, l");
+INSERT INTO scrubsnthings VALUES (7, "scrub_top", "blue", 12, 32, "s, m, l");
+INSERT INTO scrubsnthings VALUES (8, "scrub_top", "black", 12, 36, "s, m, l");
+INSERT INTO scrubsnthings VALUES (9, "scrub_bottoms", "blue", 12, 36, "s, m, l");
+INSERT INTO scrubsnthings VALUES (10, "scrub_jacket", "black", 14, 44, "s, m, l");
+INSERT INTO scrubsnthings VALUES (11, "badge_reels", "tye_dye", 4, 20, "s, m, l");
+INSERT INTO scrubsnthings VALUES (12, "badge_reels", "owl_design", 6, 12, "s, m, l");
+INSERT INTO scrubsnthings VALUES (13, "socks", "blue", 6, 32, "s, m, l");
+INSERT INTO scrubsnthings VALUES (14, "socks", "black", 6, 40, "s, m, l");
+INSERT INTO scrubsnthings VALUES (15, "scrub_hats", "black", 6, 60, "s, m, l");
+
+Display the database ordered by price
+
+SELECT * FROM scrubsnthings WHERE price ORDER BY price asc;
