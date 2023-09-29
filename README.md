@@ -1,4 +1,4 @@
-This portfolio showcases my skills in SQL, a programming language used to manage data in relational databases. I have learned SQL through a variety of online courses and tutorials, as well as through personal projects.
+Hi, my name is Sara, I am a beginner SQL developer. I am passionate about data and using SQL to help solve real-world problems. I have learned SQL through a variety of online courses and tutorials, as well as through personal projects.
 
 The projects in this portfolio demonstrate my ability to use SQL to:
 
